@@ -207,7 +207,7 @@ h4,
 h5,
 h6 {
   font-family: "Muli", sans-serif;
-  color: #072366;
+  color: #000;
   margin-top: 0px;
   font-style: normal;
   font-weight: 500;
@@ -417,7 +417,7 @@ hr {
 
 /* line 174, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_common.scss */
 .section-padding {
-  padding-top: 120px;
+  padding-top: 40px;
   padding-bottom: 0px;
 }
 
@@ -509,7 +509,7 @@ hr {
   background-size: 200%;
   transition: 0.6s;
   box-shadow: 0px 7px 21px 0px rgba(245, 24, 24, 0.4);
-  background-image: linear-gradient(to left, #ff4c31, #d60939, #ff4c31);
+  background-image: linear-gradient(to left, #a11d2a, #a11d2a, #a11d2a);
   background-position: right;
 }
 
@@ -549,7 +549,7 @@ hr {
 .white-btn {
   padding: 30px 39px;
   background: #fff;
-  color: #072366 !important;
+  color: #000 !important;
 }
 
 /* line 290, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_common.scss */
@@ -595,7 +595,7 @@ hr {
 
 /* line 322, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_common.scss */
 .cal-btn > p {
-  color: #072366 !important;
+  color: #000 !important;
   font-weight: 700;
   font-size: 16px;
   display: inline-block;
@@ -2963,7 +2963,7 @@ hr {
 .section-tittle h2 {
   font-size: 42px;
   display: block;
-  color: #072366;
+  color: #000;
   font-weight: 800;
   text-transform: capitalize;
   line-height: 1.4;
@@ -3278,7 +3278,7 @@ hr {
 .main-header .main-menu ul ul.submenu {
   position: absolute;
   width: 170px;
-  background-image: linear-gradient(to left, #ff4c31, #d60939, #ff4c31);
+  background-image: linear-gradient(to left, #a11d2a, #a11d2a, #a11d2a);
   background-position: right;
   background-size: 200%;
   left: 0;
@@ -3630,7 +3630,7 @@ hr {
 
 /* line 133, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
 .slider-area2 .hero-cap h2 {
-  color: #072366;
+  color: #000;
   font-size: 50px;
   font-weight: 800;
   text-transform: capitalize;
@@ -3849,7 +3849,7 @@ hr {
 
 /* line 14, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_pricing.scss */
 .pricing-card-area .single-card .card-top h4 {
-  color: #072366;
+  color: #000;
   font-size: 25px;
   font-weight: 800;
   padding-right: 3px;
@@ -4084,7 +4084,7 @@ hr {
   top: 5px;
   color: #fff;
   border-radius: 0 10px;
-  background-image: linear-gradient(to left, #ff4c31, #df0c3e, #ff4c31);
+  background-image: linear-gradient(to left, #a11d2a, #df0c3e, #a11d2a);
   background-position: right;
   background-size: 200%;
 }
@@ -4125,7 +4125,7 @@ hr {
 /* line 4, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_testimonial.scss */
 .testimonial-area .testimonial-caption p {
   font-size: 16px;
-  color: #072366;
+  color: #000;
   color: #717b9b;
   line-height: 45px;
   line-height: 1.5;
