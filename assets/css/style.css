@@ -418,7 +418,7 @@ hr {
 /* line 174, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_common.scss */
 .section-padding {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 0px;
 }
 
 /* line 178, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_common.scss */
@@ -3250,7 +3250,7 @@ hr {
 
 /* line 123, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_headerMenu.scss */
 .main-header .main-menu ul li a {
-  color: #4527a4;
+  color: #fff;
   font-weight: 400;
   padding: 39px 19px;
   display: block;
@@ -3407,7 +3407,7 @@ hr {
 
 /* line 2, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
 .slider-height {
-  height: 1033px;
+  height: 100vh;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3420,21 +3420,21 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 2, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 650px;
+    height: 100vh;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 2, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 600px;
+    height: 100vh;
   }
 }
 
 @media (max-width: 575px) {
   /* line 2, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
   .slider-height {
-    height: 600px;
+    height: 100vh;
   }
 }
 
@@ -3467,10 +3467,19 @@ hr {
 
 /* line 32, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
 .slider-area {
-  background-image: url(../img/hero/h1_hero.png);
+  background-image: url(../img/harvard.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.slider-fade-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 100%;
+  background: linear-gradient(to left, transparent 50%, rgb(18 18 18) 150%);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3499,10 +3508,10 @@ hr {
   font-size: 70px;
   font-weight: 800;
   margin-bottom: 14px;
-  color: #002d5b;
+  color: #fff;
   line-height: 1.2;
   text-transform: capitalize;
-  margin-bottom: 29px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3558,8 +3567,8 @@ hr {
 
 /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption p {
-  color: #464d65;
-  margin-bottom: 42px;
+  color: #f0f0f0;
+  margin-bottom: 20px;
   padding-right: 100px;
 }
 
