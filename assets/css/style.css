@@ -3479,7 +3479,7 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, transparent 20%, rgb(18 18 18) 140%);
+  background: linear-gradient(to left, transparent 30%, rgb(18 18 18) 120%);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3567,7 +3567,7 @@ hr {
 
 /* line 87, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption p {
-  color: #f0f0f0;
+  color: #fff;
   margin-bottom: 20px;
   padding-right: 100px;
 }
@@ -4084,7 +4084,7 @@ hr {
   top: 5px;
   color: #fff;
   border-radius: 0 10px;
-  background-image: linear-gradient(to left, #a11d2a, #df0c3e, #a11d2a);
+  background-image: linear-gradient(to left, #a11d2a, #a11d2a, #a11d2a);
   background-position: right;
   background-size: 200%;
 }
