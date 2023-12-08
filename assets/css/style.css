@@ -4155,10 +4155,18 @@ hr {
     margin-top: 55px;
   }
   .nah{
-    margin-top: 75px;
+    margin-top: 750px;
   }
 }
 
+@media only screen and (max-width: 900px) {
+  .jhj{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
 /* line 14, C:/Users/HP/Desktop/jun-2020/278.Internet_service/assets/scss/_testimonial.scss */
 .testimonial-area .rattiong-caption span {
   color: #06080a;
